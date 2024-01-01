@@ -11,8 +11,8 @@ const Header = () => {
     <header className="bg-slate-200 shadow-md ">
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         <h1 className='font-bold text-md sm:text-xl flex flex-wrap'>
-            <span className='text-slate-500'>Kushal</span>
-            <span className='text-slate-700'>State</span>
+            <span className='text-slate-500'>K</span>
+            <span className='text-slate-700'>P</span>
         </h1>
         
 
