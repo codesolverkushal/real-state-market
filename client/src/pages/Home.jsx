@@ -10,6 +10,7 @@ export default function Home() {
   const [offerListings, setOfferListings] = useState([]);
   const [saleListings, setSaleListings] = useState([]);
   const [rentListings, setRentListings] = useState([]);
+  console.log(offerListings);
   SwiperCore.use([Navigation]);
   useEffect(() => {
     const fetchOfferListings = async () => {
@@ -66,7 +67,7 @@ export default function Home() {
           Let's get started...
         </Link>
       </div>
-
+      
       {/* swiper */}
       <Swiper navigation>
         {offerListings &&
