@@ -12,7 +12,6 @@ import { useNavigate, useParams } from 'react-router-dom';
 export default function CreateListing() {
   const { user } = useSelector((state) => state.user);  
   const {currentUser} = user;
-  // console.log(currentUser)
   const navigate = useNavigate();
   const params = useParams();
   const [files, setFiles] = useState([]);
@@ -38,11 +37,10 @@ export default function CreateListing() {
   useEffect(() => {
     const fetchListing = async () => {
       const listingId = params.listingId;
-      // console.log(listingId);
-      console.log(listingId);
+  
       const res = await fetch(`/api/listing/get/${listingId}`);
       const data = await res.json();
-      // console.log(data);
+  
       if (data.success === false) {
         console.log(data.message);
         return;

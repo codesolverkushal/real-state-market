@@ -11,7 +11,6 @@ export default function Home() {
   const [saleListings, setSaleListings] = useState([]);
   const [rentListings, setRentListings] = useState([]);
   SwiperCore.use([Navigation]);
-  console.log(offerListings);
   useEffect(() => {
     const fetchOfferListings = async () => {
       try {
@@ -72,7 +71,7 @@ export default function Home() {
       <Swiper navigation>
         {offerListings &&
           offerListings.length > 0 &&
-          offerListings.map((listing) => (
+          offerListings.map((listing,index) => (
             <SwiperSlide>
               <div
                 style={{
