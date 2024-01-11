@@ -180,7 +180,7 @@ export default function Search() {
               <input
                 type='checkbox'
                 id='offer'
-                className='w-5'
+                className='w-5 ml-11 md:ml-0'
                 onChange={handleChange}
                 checked={sidebardata.offer}
               />
@@ -230,7 +230,7 @@ export default function Search() {
         </form>
       </div>
       <div className='flex-1'>
-        <h1 className='text-3xl font-semibold border-b p-3 text-slate-700 mt-5'>
+        <h1 className='text-3xl font-semibold border-b p-3 text-slate-700 mt-5 text-center md:text-start'>
           Listing results:
         </h1>
         <div className='p-7 flex flex-wrap gap-4'>
