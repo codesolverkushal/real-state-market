@@ -1,21 +1,24 @@
-import React from 'react'
+import React from 'react';
 
 export default function About() {
   return (
-    
-      <div className='py-20 px-4 max-w-6xl mx-auto'>
-      <h1 className='text-3xl font-bold mb-4 text-slate-800'>About Real State</h1>
-      <p className='mb-4 text-slate-700'>It is a leading real estate agency that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods. Our team of experienced agents is dedicated to providing exceptional service and making the buying and selling process as smooth as possible.</p>
-      <p className='mb-4 text-slate-700'>
-      Our mission is to help our clients achieve their real estate goals by providing expert advice, personalized service, and a deep understanding of the local market. Whether you are looking to buy, sell, or rent a property, we are here to help you every step of the way.
+    <div className="py-20 px-4 max-w-6xl mx-auto bg-cover bg-center">
+      <h1 className="text-4xl font-extrabold mb-4">Welcome to KP Real Estate</h1>
+      <p className="mb-4">
+        Elevate your lifestyle with KP Real Estate, your premier destination for unparalleled
+        real estate experiences. We specialize in curating exceptional living spaces that go beyond
+        the ordinary, offering a blend of luxury, comfort, and style.
       </p>
-      <p className='mb-4 text-slate-700'>Our team of agents has a wealth of experience and knowledge in the real estate industry, and we are committed to providing the highest level of service to our clients. We believe that buying or selling a property should be an exciting and rewarding experience, and we are dedicated to making that a reality for each and every one of our clients.</p>
-    
-  
+      <p className="mb-4">
+        At KP Real Estate, we redefine the art of living by connecting you with the most
+        exclusive properties in the most coveted neighborhoods. Our passionate team of experts is
+        dedicated to transforming your real estate dreams into reality.
+      </p>
+      <p className="mb-4">
+        Experience the epitome of sophistication and seamless transactions with KP Real Estate.
+        Whether you're seeking a dream home, selling a property, or investing in the future, we're
+        committed to delivering an extraordinary journey.
+      </p>
     </div>
-  )
+  );
 }
-
-
-
-
